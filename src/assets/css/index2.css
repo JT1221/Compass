@@ -1,0 +1,226 @@
+.cover[data-v-28b773fb] {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99999;
+    background: rgba(0,0,0,.4)
+    }
+    
+    .commonPanel[data-v-28b773fb] {
+    position: relative;
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+    color: #505050;
+    border-radius: 4px;
+    box-shadow: 0 0 15px rgba(0,0,0,.2)
+    }
+    
+    .closeBox[data-v-28b773fb] {
+    position: absolute;
+    top: 0;
+    right: -40px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: rgba(26,27,28,.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all .3s
+    }
+    
+    .closeBox img[data-v-28b773fb] {
+    max-width: 100%;
+    vertical-align: bottom;
+    border-style: none;
+    height: unset;
+    word-break: break-all
+    }
+    
+    .loginPanelBox[data-v-28b773fb] {
+    display: flex;
+    align-items: stretch;
+    height: 540px;
+    background: linear-gradient(135deg,#0063e8,#00ceff 100%,#00a5ff 0);
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.1);
+    font-family: Helvetica,Arial,Microsoft YaHei,PingFang SC,Lantinghei SC,HanHei SC,Helvetica Neue,Open Sans,Hiragino Sans GB,微软雅黑,STHeiti,WenQuanYi Micro Hei,SimSun,sans-serif;
+    border-radius: 6px;
+    justify-content: space-between
+    }
+    
+    .loginPanelRightHide[data-v-28b773fb] {
+    border-radius: 6px 0 0 6px
+    }
+    
+    .loginPanelRight[data-v-28b773fb] {
+    width: 400px;
+    background: #fff;
+    box-shadow: 0 0 4px rgba(0,0,0,.1);
+    text-align: center;
+    border-radius: 6px;
+    box-sizing: border-box;
+    max-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px
+    }
+    
+    .loginRightPadding[data-v-28b773fb] {
+    padding: 0
+    }
+    
+    .loginRight[data-v-28b773fb] {
+    width: 480px;
+    background-color: #f4f5f6;
+    border-radius: 0 6px 6px 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    box-sizing: border-box;
+    background-size: 100% 100%;
+    background-repeat: no-repeat
+    }
+    
+    .loginBox[data-v-28b773fb] {
+    font-size: 12px;
+    width: 100%
+    }
+    
+    .loginBox .btn-gray[data-v-28b773fb] {
+    background: #f4f5f6;
+    color: #414751
+    }
+    
+    .loginBox .btn[data-v-28b773fb] {
+    border: none;
+    outline: none;
+    background: #2c7dfa;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 13px;
+    cursor: pointer;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin: 8px 0;
+    font-weight: 400;
+    transition: all .3s;
+    position: relative;
+    padding: 0
+    }
+    
+    
+    .FTBtn_Icon[data-v-28b773fb] {
+    height: 24px;
+    position: absolute;
+    left: 16px;
+    top: 8px
+    }
+    
+    .FTBtn_Icon img[data-v-28b773fb] {
+    width: 24px;
+    display: inline-block;
+    vertical-align: top
+    }
+    
+    .info[data-v-28b773fb] {
+    text-align: center
+    }
+    
+    .loginboxTitle[data-v-28b773fb] {
+    font-size: 18px;
+    margin: 12px 0 12px;
+    font-family: Poppins-Medium,Poppins;
+    color: #222326;
+    font-weight: 500;
+    line-height: 26px
+    }
+    
+    .google_login_btn[data-v-28b773fb] {
+    position: relative
+    }
+    
+    .splitLine[data-v-28b773fb] {
+    width: 42px;
+    height: 1px;
+    background-color: #e7e8e9;
+    margin: 16px auto 16px auto;
+    color: #9da2ad;
+    position: relative
+    }
+    
+    .splitLine .splitLineInfo[data-v-28b773fb] {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #fff;
+    line-height: 16px;
+    width: 20px
+    }
+    
+    .inputBox[data-v-28b773fb] {
+    text-align: left;
+    position: relative
+    }
+    
+    .inputClass[data-v-28b773fb] {
+    width: 100%;
+    height: 40px;
+    padding: 0 10px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #1b1e24;
+    border: 0;
+    background: #fff;
+    outline: none;
+    border: 1px solid #dadbdc;
+    border-radius: 4px;
+    transition: all .3s;
+    box-sizing: border-box
+    }
+    
+    .warningDscBox[data-v-28b773fb] {
+    min-height: 16px;
+    color: red
+    }
+    
+    .rememberForgetBox[data-v-28b773fb] {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-bottom: 19px
+    }
+    
+    .rememberBox[data-v-28b773fb] {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: #a0a0a0
+    }
+    
+    .checkBox[data-v-28b773fb] {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    position: relative;
+    border: 1px solid #e7e8e9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px
+    }
