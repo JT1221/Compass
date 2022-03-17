@@ -5,8 +5,6 @@
 </template>
 
 <style lang="scss">
-@import "@/assets/css/index.scss";
-
 #app {
   margin: 0;
   padding: 0;
